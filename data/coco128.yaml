@@ -1,0 +1,13 @@
+train: D:\project\SmartGlasses-main\yolov5\data\train\images
+val: D:\project\SmartGlasses-main\yolov5\data\valid\images
+test: D:\project\SmartGlasses-main\yolov5\data\test\images
+
+nc: 7
+names: ['10', '100', '1000', '20', '50', '500', '5000']
+
+roboflow:
+  workspace: kewlabd
+  project: currency-identification-smart-glasses
+  version: 1
+  license: CC BY 4.0
+  url: https://universe.roboflow.com/kewlabd/currency-identification-smart-glasses/dataset/1

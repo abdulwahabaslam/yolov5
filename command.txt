@@ -1,0 +1,1 @@
+python detect.py --source 1 --weights runs/train/exp5/weights/last.pt --data coco128.yaml --conf 0.05
